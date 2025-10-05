@@ -29,6 +29,6 @@ npm run start
 9. Now, to expose it to the outside world:
     a. Edit inbound rules under "security"
     b. type: custom IP; port range: 3000; source: anywhere (0.0.0.0)
-    c. access using public key of ec2 instance on port 3000 using http://<public-ip-of-ec2-instance>:3000
+    c. access using public key of ec2 instance on port 3000 using http://&lt;public-ip-of-ec2-instance&gt;:3000
 
 Deleted AWS resources: EC2 instance and IAM user
